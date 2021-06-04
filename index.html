@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Awesome Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+<!-- Page content -->
+<div class="text-center my-5 py-5">
+    <h1>Welcome to my website!</h1>
+    <div class="col-lg-5 mx-auto my-5">
+        <p>This is some text about me. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum nulla sit amet ligula gravida ullamcorper. Ut sapien erat, aliquet dapibus nisi ac, rutrum blandit nulla. Vivamus semper ultricies malesuada. Integer erat quam, hendrerit a tempor eu, sodales eu massa. Nullam nec venenatis felis. In hac habitasse platea dictumst. Vestibulum a tortor sed elit euismod hendrerit. Nullam eu purus ac velit sagittis vestibulum. Fusce in metus vel ante mattis bibendum. Suspendisse at sapien non nisl fermentum auctor a vel nisl. Fusce vel nisi at enim placerat condimentum.</p>
+    </div>
+    <div class="container">
+        <a href="https://mishalarionov.com" class="btn btn-primary">About Me</a>
+        <button class="btn btn-secondary" data-toggle="modal" data-target="#popup">Picture of Me</button>
+    </div>
+</div>
+
+<!-- Popup Modal -->
+<div class="modal" id="popup" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Popup with my face in it</h5>
+            </div>
+            <div class="modal-body">
+                <p>This is my face. Hello.</p>
+                <img class="img-fluid img-thumbnail mx-auto d-block" src="https://mishalarionov.com/imgs/profile.webp">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
